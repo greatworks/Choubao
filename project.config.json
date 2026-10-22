@@ -1,0 +1,103 @@
+{
+  "description": "你个臭宝 - 微信小游戏",
+  "packOptions": {
+    "ignore": [
+      {
+        "value": "docs",
+        "type": "folder"
+      },
+      {
+        "value": "README.md",
+        "type": "file"
+      },
+      {
+        "value": "preview.html",
+        "type": "file"
+      },
+      {
+        "value": "preview.bundle.js",
+        "type": "file"
+      },
+      {
+        "value": "scripts",
+        "type": "folder"
+      },
+      {
+        "value": "tests",
+        "type": "folder"
+      },
+      {
+        "value": "artifacts",
+        "type": "folder"
+      },
+      {
+        "value": "assets/icon/choubao-avatar-source.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/icon/choubao-avatar-144.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/icon/choubao-avatar-v2-source.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/icon/choubao-avatar-v2-144.png",
+        "type": "file"
+      }
+    ],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": true,
+    "lazyloadPlaceholderEnable": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "disableUseStrict": false,
+    "minifyWXML": true,
+    "showES6CompileOption": false,
+    "useCompilerPlugins": false,
+    "compileWorklet": false,
+    "localPlugins": false,
+    "condition": false,
+    "swc": false,
+    "disableSWC": true
+  },
+  "compileType": "game",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "libVersion": "3.15.2",
+  "appid": "wxee01fa59f53d8923",
+  "projectname": "%E4%BD%A0%E4%B8%AA%E8%87%AD%E5%AE%9D",
+  "condition": {},
+  "simulatorPluginLibVersion": {},
+  "isGameTourist": false,
+  "editorSetting": {}
+}

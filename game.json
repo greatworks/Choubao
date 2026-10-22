@@ -1,0 +1,12 @@
+{
+  "deviceOrientation": "portrait",
+  "showStatusBar": false,
+  "networkTimeout": {
+    "request": 8000,
+    "connectSocket": 8000,
+    "uploadFile": 8000,
+    "downloadFile": 8000
+  },
+  "resizable": false,
+  "openDataContext": "src/open-data"
+}

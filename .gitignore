@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+.idea/
+.vscode/
+*.log
+project.private.config.json
+preview.bundle.js
+artifacts/

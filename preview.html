@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>你个臭宝 - 本地预览</title>
+  <style>
+    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: #7fb6f7; }
+    canvas { display: block; touch-action: none; }
+  </style>
+</head>
+<body>
+  <script src="preview.bundle.js"></script>
+  <script>
+    (function () {
+      var match = window.location.search.match(/[?&]level=(\d+)/);
+      if (match && window.__choubaoGame) {
+        window.__choubaoGame.model.startLevel(Number(match[1]), true);
+        var zoomMatch = window.location.search.match(/[?&]zoom=([\d.]+)/);
+        if (zoomMatch) {
+          window.__choubaoGame.model.setZoom(Number(zoomMatch[1]));
+        }
+      }
+      var modalMatch = window.location.search.match(/[?&]modal=([a-zA-Z]+)/);
+      if (modalMatch && window.__choubaoGame) {
+        if (modalMatch[1] === 'friendRank' && /[?&]reminder=1/.test(window.location.search)) {
+          window.__choubaoGame.model.saveData.social.rankReminderAccepted = true;
+        }
+        window.__choubaoGame.model.setModal(modalMatch[1]);
+      }
+    }());
+  </script>
+</body>
+</html>
