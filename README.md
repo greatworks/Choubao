@@ -6,6 +6,11 @@
 
 视觉采用明亮的 3D 卡通风格：主页使用“臭宝”角色徽章与立体品牌牌，关卡内使用高光 HUD、立体棋盘包边和材质化道具台；棋盘路径为高对比、无阴影的纯折线箭头，箭身采用紧凑细线，箭头尖单独放大以强化方向识别。
 
+<img width="464" height="1010" alt="choubao1_17926538358803" src="https://github.com/user-attachments/assets/b010fb93-bab7-4ab5-b110-c92b216c5d2b" />
+
+<img width="467" height="1011" alt="choubao2_17926537646031" src="https://github.com/user-attachments/assets/99809db4-5303-49e9-9634-ed9ab2074773" />
+
+
 ## 当前版本
 
 - 第 1 关由 8 根纯折线箭头组成小型教学迷宫。前两根分别朝右、朝上紧贴棋盘边界，点击后直接出界；随后引导玩家识别长弯箭和阻挡关系，所有箭头都不会指向自己的箭身。
